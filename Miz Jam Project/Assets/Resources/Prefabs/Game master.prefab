@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4373286971626660904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4373286971626660906}
+  - component: {fileID: 4373286971626660907}
+  - component: {fileID: 4373286971626660909}
+  m_Layer: 0
+  m_Name: Game master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4373286971626660906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4373286971626660904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4373286971626660907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4373286971626660904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8caf68baac4f9fc4b8b46c28d73acc48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4373286971626660909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4373286971626660904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0adda1d5acb18945ad63f21510ef878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Jump
+    clip: {fileID: 8300000, guid: 722eab942434b88469132a7beffb0baa, type: 3}
+    loop: 0
+    voulume: 0.4
+    pitch: 0.9
+    source: {fileID: 0}
+  - name: Steps
+    clip: {fileID: 8300000, guid: 56bdbb34e785a7b4291fd35137aa99e2, type: 3}
+    loop: 0
+    voulume: 0.5
+    pitch: 0.9
+    source: {fileID: 0}
+  - name: Key
+    clip: {fileID: 8300000, guid: c0a6ad759b5b3c34cbea3420c3ea1d64, type: 3}
+    loop: 0
+    voulume: 0.3
+    pitch: 1.2
+    source: {fileID: 0}
+  - name: Lock
+    clip: {fileID: 8300000, guid: 56d286c6e49410c4ca6ab3efd7075d64, type: 3}
+    loop: 0
+    voulume: 0.5
+    pitch: 1.2
+    source: {fileID: 0}
+  - name: Dice
+    clip: {fileID: 8300000, guid: f8cccb0db7343b545b51baa98131b937, type: 3}
+    loop: 0
+    voulume: 0.4
+    pitch: 1.2
+    source: {fileID: 0}
+  - name: Menumusic
+    clip: {fileID: 8300000, guid: f8cccb0db7343b545b51baa98131b937, type: 3}
+    loop: 1
+    voulume: 0.4
+    pitch: 1.2
+    source: {fileID: 0}
+  - name: Gamemusic
+    clip: {fileID: 8300000, guid: 1813e3b8d9d5dba4bade835f542d3ef1, type: 3}
+    loop: 1
+    voulume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: 5f0a3778fe04e6542b5b32365d6585e2, type: 3}
+    loop: 0
+    voulume: 0.3
+    pitch: 0.7
+    source: {fileID: 0}
